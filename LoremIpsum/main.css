@@ -1,0 +1,74 @@
+/* @import url('halloween.css'); */
+
+@media screen {
+    body main {background-color: antiquewhite;}
+
+h1, h2 {
+    background-color: burlywood;
+    font-family: Courier;
+    font-size: 2em;
+}
+
+h2 {
+    color: green;
+    font-style: italic;
+    font-size: 1.5em;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9de96+0,8ab66b+27,398235+69 */
+    background: #c9de96; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #c9de96 0%, #8ab66b 27%, #398235 69%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #c9de96 0%,#8ab66b 27%,#398235 69%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #c9de96 0%,#8ab66b 27%,#398235 69%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9de96', endColorstr='#398235',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+header h2 {color:black;}
+
+body main article h2 span {color: brown;}
+
+p {
+    color: blueviolet;
+    font-size: 18px;
+}
+
+p.two {
+    color: black;
+    font: bold,15px Arial, sans-serif;
+}
+
+nav a:link {
+    background-image: linear-gradient(rgb(0, 162, 255), yellow);
+    color: white;
+    
+}
+
+nav a:hover {
+    background-color: white;
+    color:red;
+}
+
+header {text-align: center;}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;  
+    width: 9em;
+    height: 1.5em;  
+    padding: 5px;
+}
+
+footer {
+    font-weight: bold;
+}
+
+li {
+    font-variant: small-caps;
+}
+
+article {
+    border-bottom: olivedrab 3px solid; padding:5px
+}
+}
+

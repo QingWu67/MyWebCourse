@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VolleyBall Form</title>
+    <style>
+        label,
+        input,
+        textarea,
+        select {
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        .card-type input,
+        .card-type label {
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Register for Nerby Valleyball Training</h1>
+
+    <fieldset>
+        <legend>Personal detail</legend>
+        <label>
+            First Name
+            <input name="fName" type="text" required>
+        </label>
+        <label>
+            Last Name
+            <input name="lName" type="text" required>
+        </label>
+        <label>
+            Date of Birth
+            <input name="dtBirth" type="text" required>
+        </label>
+        <label>
+            Email
+            <input name="email" type="text" required>
+        </label>
+        <label>
+            Password *
+            <input name="password" type="text" required>
+        </label>
+        <label>
+            Repeat Password *
+            <input name="password" type="text" required>
+        </label>
+        <label>
+            Your Github URL
+            <input name="gitURL" type="text">
+        </label>
+        <label>
+            Phonne
+            <input name="phone" type="text">
+        </label>
+        <p></p>
+        <label>
+            Shoesize
+            <input name="fName" type="text">
+        </label>
+        <label>
+            Skill Level (1 novice, 19 expert)
+            <input name="fName" type="text">
+        </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Billing address</legend>
+        <label>
+            Address *
+            <textarea name="address" rows="5" required></textarea>
+        </label>
+        <label>
+            Postal code *
+            <input name="postalCode" type="text" required>
+        </label>
+        <label>
+            Country
+            <input id="country" name="country" list="country-names" type="text" required>
+            <datalist id="country-names">
+                <option label="England" value="England"></option>
+                <option label="Northern Ireland" value="Northern Ireland"></option>
+                <option label="Ireland" value="Ireland"></option>
+                <option label="Scotland" value="Scotland"></option>
+                <option label="Wales" value="Wales"></option>
+            </datalist>
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Card detail</legend>
+        <fieldset>
+            <legend>Card type</legend>
+            <div class="card-type">
+                <input id="visa" name="cardtype" type="radio">
+                <label for="visa">VISA</label>
+                <input id="mastercard" name="cardtype" type="radio">
+                <label for="mastercard">Mastercard</label>
+                <input id="amex" name="cardtype" type="radio">
+                <label for="amex">AMEX</label>
+            </div>
+        </fieldset>
+        <label>
+            Name
+            <input name="fName" type="text" required>
+        </label>
+        <label>
+            Card Number
+            <input name="cardnum" type="text" required>
+        </label>
+        <label>
+            Security Numer *
+            <input name="securityNum" type="text" required>
+        </label>
+        <label>
+            Expiry Date
+            <input name="expiry" type="text">
+        </label>
+    </fieldset>
+
+    <input type="submit" value="Register">
+
+</body>
+
+</html>

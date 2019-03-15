@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basics of HTML, CSS and JavasScript</title>
+    <style>
+        div {
+            width: 300px;
+            padding: 10px;
+            border: 1px solid purple;
+            background-color: grey;
+            color: purple
+        }
+    
+    </style>
+    <script>
+    function init() {
+            document.getElementById("name").innerHTML = '<ul><li>Qing Wu</li>';
+            document.getElementById("email").innerHTML = '<li>Qing.Wu@ssa.gov</li></ul>';
+        }
+    </script>
+</head>
+<body onload="init()">
+    <div id="name"></div>
+    <div id="email"></div>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="course-outline.html">Course Outline</a>
+            </li>
+             <li>
+                <a href="recipes.html">Recipes</a>
+            </li>
+
+        </ul>
+</nav>
+</body>
+</html>

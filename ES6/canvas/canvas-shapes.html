@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <script>
+            function init() {
+                var canvas = document.getElementById('canvas');
+                var ctx = canvas.getContext('2d');    
+
+                //Draw rectangle
+            ctx.fillStyle = 'Blue';
+            ctx.fillRect(10, 10, 100, 50);
+            ctx.closePath();
+
+            ctx.beginPath();
+            ctx.moveTo(175, 150);
+            ctx.lineTo(200, 175);
+            ctx.lineTo(200, 125);
+            ctx.fill()
+;            }
+        </script>
+</head>
+<body onload="init()">
+        <canvas id="canvas" width="800" height="400"></canvas>
+    </body>
+</html>
